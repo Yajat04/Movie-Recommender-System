@@ -12,6 +12,4 @@ It recommends movies similar to a selected title by analyzing metadata such as g
 - Built an interactive Streamlit web application.
 - Integrated the TMDB API to fetch movie posters, ratings, release dates, and other movie details.
 - Designed a clean, user-friendly interface with search functionality and visually rich recommendation cards.
-
-## Upcoming Features:
-- Deploy the application for public access.
+- Deployed the application for public access.
