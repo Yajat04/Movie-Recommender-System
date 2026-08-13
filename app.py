@@ -32,10 +32,13 @@ def load_data():
 
     movies = pd.DataFrame(movies_dict)
 
-    with open("simi_list2.pkl", "rb") as file:
-        simi_list = pickle.load(file)
+    # with open("simi_list2.pkl", "rb") as file:
+    #     simi_list = pickle.load(file)
+    #
+    # simi = np.array(simi_list)
 
-    simi = np.array(simi_list)
+    with open("simif16.pkl", "rb") as file:
+        simi = pickle.load(file)
 
     return movies, simi
 
